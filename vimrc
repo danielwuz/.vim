@@ -24,46 +24,46 @@ set listchars=tab:▸\ ,eol:¬
 set cursorline
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-" Plugin 'gmarik/Vundle.vim'
-" Plugin 'tpope/vim-fugitive'
-" Plugin 'L9'
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Plugin 'flazz/vim-colorschemes'
-" Plugin 'scrooloose/syntastic'
-" Plugin 'Lokaltog/vim-easymotion'
-" Plugin 'tpope/vim-surround'
-" Plugin 'MarcWeber/vim-addon-mw-utils'
-" Plugin 'tomtom/tlib_vim'
-" Plugin 'garbas/vim-snipmate'
-" Plugin 'honza/vim-snippets'
-" Plugin 'tpope/vim-repeat'
-" Plugin 'bling/vim-airline'
-" Plugin 'edsono/vim-matchit'
-" Plugin 'scrooloose/nerdcommenter'
-" Plugin 'mileszs/ack.vim'
-" Plugin 'bkad/CamelCaseMotion'
-" Plugin 'michaeljsmith/vim-indent-object'
-" Plugin 'argtextobj.vim'
-" Plugin 'tpope/vim-abolish'
-" Plugin 'tpope/vim-unimpaired'
+"Plugin 'gmarik/Vundle.vim'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'L9'
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Plugin 'flazz/vim-colorschemes'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'Lokaltog/vim-easymotion'
+"Plugin 'tpope/vim-surround'
+"Plugin 'MarcWeber/vim-addon-mw-utils'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'garbas/vim-snipmate'
+"Plugin 'honza/vim-snippets'
+"Plugin 'tpope/vim-repeat'
+"Plugin 'bling/vim-airline'
+"Plugin 'edsono/vim-matchit'
+"Plugin 'scrooloose/nerdcommenter'
+"Plugin 'mileszs/ack.vim'
+"Plugin 'bkad/CamelCaseMotion'
+"Plugin 'michaeljsmith/vim-indent-object'
+"Plugin 'argtextobj.vim'
+"Plugin 'tpope/vim-abolish'
+"Plugin 'tpope/vim-unimpaired'
 
 " language support
-" Plugin 'kchmck/vim-coffee-script'
-" Plugin 'tpope/vim-markdown'
-" Plugin 'groenewege/vim-less'
-" Plugin 'pangloss/vim-javascript'
-" Plugin 'elzr/vim-json'
-" Plugin 'ap/vim-css-color'
-
+"Plugin 'kchmck/vim-coffee-script'
+"Plugin 'tpope/vim-markdown'
+"Plugin 'groenewege/vim-less'
+"Plugin 'pangloss/vim-javascript'
+"Plugin 'elzr/vim-json'
+"Plugin 'ap/vim-css-color'
+"
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+"call vundle#end()            " required
+"filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -77,8 +77,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 syntax on
 " colorscheme zenburn
-" nmap s <Plug>(easymotion-s)
-syntax enable
-" let g:airline_theme='badwolf'
+"nmap s <Plug>(easymotion-s)
+"let g:airline_theme='badwolf'
 
 "key mapping
