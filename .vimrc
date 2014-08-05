@@ -30,36 +30,36 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'flazz/vim-colorschemes'
-Plugin 'scrooloose/syntastic'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'tpope/vim-surround'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'tpope/vim-repeat'
-Plugin 'bling/vim-airline'
-Plugin 'edsono/vim-matchit'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'mileszs/ack.vim'
-Plugin 'bkad/CamelCaseMotion'
-Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'argtextobj.vim'
-Plugin 'tpope/vim-abolish'
-Plugin 'tpope/vim-unimpaired'
+" Plugin 'gmarik/Vundle.vim'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'L9'
+" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Plugin 'flazz/vim-colorschemes'
+" Plugin 'scrooloose/syntastic'
+" Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'tpope/vim-surround'
+" Plugin 'MarcWeber/vim-addon-mw-utils'
+" Plugin 'tomtom/tlib_vim'
+" Plugin 'garbas/vim-snipmate'
+" Plugin 'honza/vim-snippets'
+" Plugin 'tpope/vim-repeat'
+" Plugin 'bling/vim-airline'
+" Plugin 'edsono/vim-matchit'
+" Plugin 'scrooloose/nerdcommenter'
+" Plugin 'mileszs/ack.vim'
+" Plugin 'bkad/CamelCaseMotion'
+" Plugin 'michaeljsmith/vim-indent-object'
+" Plugin 'argtextobj.vim'
+" Plugin 'tpope/vim-abolish'
+" Plugin 'tpope/vim-unimpaired'
 
 " language support
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'tpope/vim-markdown'
-Plugin 'groenewege/vim-less'
-Plugin 'pangloss/vim-javascript'
-Plugin 'elzr/vim-json'
-Plugin 'ap/vim-css-color'
+" Plugin 'kchmck/vim-coffee-script'
+" Plugin 'tpope/vim-markdown'
+" Plugin 'groenewege/vim-less'
+" Plugin 'pangloss/vim-javascript'
+" Plugin 'elzr/vim-json'
+" Plugin 'ap/vim-css-color'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -71,14 +71,14 @@ filetype plugin indent on    " required
 " :PluginList          - list configured plugins
 " :PluginInstall(!)    - install (update) plugins
 " :PluginSearch(!) foo - search (or refresh cache first) for foo
-" :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
+" :PluginClean(!)      - confirm (or auto-approve) remval of unused plugins
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 syntax on
-colorscheme zenburn
-nmap s <Plug>(easymotion-s)
+" colorscheme zenburn
+" nmap s <Plug>(easymotion-s)
 syntax enable
-let g:airline_theme='badwolf'
+" let g:airline_theme='badwolf'
 
 "key mapping
